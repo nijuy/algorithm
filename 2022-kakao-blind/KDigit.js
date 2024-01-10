@@ -6,7 +6,7 @@ function solution(n, k) {
 
   candidates.forEach((n) => {
     if (n === 0 || n === 1) return;
-    else if (isPrimeNumber(Number(n))) {
+    else if (isPrimeNumber(n)) {
       answer += 1;
     }
   });
